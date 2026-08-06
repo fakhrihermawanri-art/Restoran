@@ -6,22 +6,22 @@ class Peserta {
         this.proglat = proglat;
         this.nilai = nilai;
     }
-    //getter
-    get nilai(){
-        return this._nilai
-    }
-    //setter
-    set nilai(nilaiBaru){
-        if (nilaiBaru > 100){
-            console.log('Nilai tidak boleh diatas 100!');
-            this._nilai = 100;
-        }else if (nilaiBaru < 0){
-            console.log('Nilai tidak boleh dibawah 0!');
-            this._nilai = 0;
-        }else{
-            this._nilai = nilaiBaru;
-        }
-    }
+    // //getter
+    // get nilai(){
+    //     return this._nilai
+    // }
+    // //setter
+    // set nilai(nilaiBaru){
+    //     if (nilaiBaru > 100){
+    //         console.log('Nilai tidak boleh diatas 100!');
+    //         this._nilai = 100;
+    //     }else if (nilaiBaru < 0){
+    //         console.log('Nilai tidak boleh dibawah 0!');
+    //         this._nilai = 0;
+    //     }else{
+    //         this._nilai = nilaiBaru;
+    //     }
+    // }
     //method
     grade() {
         if(this.nilai >=90) {
