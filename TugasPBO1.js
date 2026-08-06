@@ -32,9 +32,8 @@ class Peserta {
             console.log(`${this.nama} ${this.umur} ${this.proglat} : Cukup ${this.nilai}`);
         }else if(this.nilai >=60) {
             console.log(`${this.nama} ${this.umur} ${this.proglat} : Kurang ${this.nilai}`);
-        }else{
-            console.log(`${this.nama} ${this.umur} ${this.proglat} : Tidak lulus ${this.nilai}`);
         }
+            
     }
 }
 
